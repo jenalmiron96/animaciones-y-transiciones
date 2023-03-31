@@ -1,0 +1,42 @@
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.btn-modern{
+    position: relative;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    color: black;
+    background-color: #b1279e;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid pink;
+    transition: background-color 150ms;
+    transform: translateX(0) translateY(-5px);
+    box-shadow: rgb(104, 25, 25);
+    animation-name: boton;
+
+}
+.btn-modern:hover{
+      background-color: aqua;
+      color: blanchedalmond;
+      animation-direction: alternate;
+      animation-name: boton;
+
+
+}
+@keyframes boton {
+    0%{
+        transform: translateX(0)  translateY(0);
+    }
+    100%{
+        transform: translateX(-5px) translateY(-5
+        );
+    }
+}
